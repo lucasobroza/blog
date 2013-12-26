@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"accoun",
+				"account_ids"
+			],
+			[
+				"acc",
+				"account_ids"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Font",
+				"font-size"
+			],
+			[
+				"st",
+				"style	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lucas/Rails/blog/app/views/accounts/new.html.erb",
+		"/home/lucas/Rails/blog/app/controllers/accounts_controller.rb",
+		"/home/lucas/Rails/blog/app/controllers/users_controller.rb",
+		"/home/lucas/Rails/blog/app/assets/stylesheets/application.css.scss",
+		"/home/lucas/Rails/blog/app/views/users/show.html.erb",
+		"/home/lucas/Rails/blog/app/views/users/_form.html.erb",
+		"/home/lucas/Rails/blog/app/models/account.rb",
+		"/home/lucas/Rails/blog/app/models/user.rb",
+		"/home/lucas/Rails/blog/app/controllers/posts_controller.rb",
+		"/home/lucas/Rails/blog/app/views/users/edit.html.erb",
+		"/home/lucas/Rails/blog/app/views/accounts/_form.html.erb",
+		"/home/lucas/Rails/blog/app/views/accounts/show.html.erb",
+		"/home/lucas/Rails/blog/db/migrate/20131218171636_create_accounts_users.rb",
+		"/home/lucas/Rails/blog/db/migrate/20131218170636_create_accounts.rb",
+		"/home/lucas/Rails/blog/db/migrate/create_account.rb~",
+		"/home/lucas/Rails/blog/app/models/account_user.rb",
+		"/home/lucas/Rails/blog/app/models/accounts_users.rb",
+		"/home/lucas/Rails/blog/app/models/accounts.rb",
+		"/home/lucas/Rails/blog/app/views/layouts/application.html.erb",
+		"/home/lucas/Rails/blog/db/migrate/apaga.rb",
+		"/home/lucas/Rails/blog/db/migrate/20131218164617_create_accounts.rb",
+		"/home/lucas/Rails/blog/db/migrate/20131218162009_create_accounts.rb",
+		"/home/lucas/Rails/blog/app/views/posts/index.html.erb",
+		"/home/lucas/Rails/blog/app/views/users/index.html.erb",
+		"/home/lucas/Rails/blog/app/helpers/application_helper.rb",
+		"/home/lucas/Rails/blog/app/views/users/index.json.jbuilder",
+		"/home/lucas/Rails/blog/app/views/posts/edit.html.erb",
+		"/home/lucas/Rails/blog/app/views/posts/new.html.erb",
+		"/home/lucas/Rails/blog/app/assets/stylesheets/posts.css.scss",
+		"/home/lucas/Rails/blog/config/locales/pt-BR.yml",
+		"/home/lucas/Rails/blog/app/views/posts/_form.html.erb",
+		"/home/lucas/Rails/blog/app/views/posts/show.html.erb",
+		"/home/lucas/Rails/blog/app/assets/stylesheets/index.css.scss",
+		"/home/lucas/Rails/blog/config/application.rb",
+		"/home/lucas/mapeamento/config/application.rb",
+		"/home/lucas/Rails/blog/app/views/comments/_form.html.erb",
+		"/home/lucas/Rails/blog/app/views/comments/_comment.html.erb",
+		"/home/lucas/Rails/blog/app/controllers/welcome_controller.rb",
+		"/home/lucas/Rails/blog/app/models/comment.rb",
+		"/home/lucas/Rails/blog/app/assets/stylesheets/comments.css.scss",
+		"/home/lucas/mapeamento/config/locales/devise.pt-BR.yml",
+		"/home/lucas/Rails/blog/app/controllers/application_controller.rb",
+		"/home/lucas/Rails/blog/app/controllers/index_controller.rb",
+		"/home/lucas/Rails/blog/app/models/post.rb",
+		"/home/lucas/Rails/blog/Gemfile",
+		"/home/lucas/Rails/blog/app/controllers/comments_controller.rb",
+		"/home/lucas/Rails/blog/app/assets/stylesheets/welcome.css.scss",
+		"/home/lucas/Rails/blog/config/routes.rb",
+		"/home/lucas/Rails/blog/db/schema.rb",
+		"/home/lucas/Rails/blog/db/migrate/20131216193825_create_comments.rb",
+		"/home/lucas/Rails/blog/db/migrate/20131216183936_create_commenters.rb",
+		"/home/lucas/Rails/blog/app/models/commenter.rb",
+		"/home/lucas/Rails/blog/app/views/welcome/index.html.erb",
+		"/home/lucas/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/lucas/Rails/blog/db/migrate/20131216112426_create_posts.rb",
+		"/home/lucas/Ruby/helloworld.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ccou",
+			"')",
+			"destroy",
+			" %>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "application.css.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"blog",
+				"~/Rails/blog/app/views/users/show.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

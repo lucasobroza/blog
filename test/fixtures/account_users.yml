@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  key: 
+  id_user: 1
+  id_account: 1
+
+two:
+  key: 
+  id_user: 1
+  id_account: 1

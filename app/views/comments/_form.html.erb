@@ -1,0 +1,13 @@
+<%= form_for([@post, @post.comments.build]) do |f| %>
+  <p>
+    <%= f.label :Autor %><br />
+    <%= f.text_field :commenter %>
+  </p>
+  <p>
+    <%= f.label :"Texto" %><br />
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit :"enviar comentário" %>
+  </p>
+<% end %>
