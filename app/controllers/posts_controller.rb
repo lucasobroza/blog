@@ -5,7 +5,9 @@ class PostsController < ApplicationController
   before_action :post_params, :only=> [:create, :update]
 
   def index
-  	  @posts = Post.all
+      #binding.pry
+  	  @posts = Post.paginate(:page => params[:page], :per_page => 5)
+
 	end
 
 

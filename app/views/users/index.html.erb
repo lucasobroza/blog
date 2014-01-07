@@ -1,31 +1,22 @@
-<h1>Listing users</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th><%= t("activerecord.models.attributes.user.name")%></th>
-      <th>Email</th>
-      <th>Active</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= user.email %></td>
-        <td><%= sn(user.active) %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New User', new_user_path %>
+<div class="bg">
+  <div class="header">
+    <h1>Usuários:</h1>
+  </div>  
+  <div class="center">
+      <% @users.each do |user| %>
+        <div class="account-cont">
+          <h3>Nome - <%= user.name %></h3>
+          <h3>Email - <%= user.email %></h3>
+          <h3>Ativo - <%= human_boolean(user.active) %></h3>
+          <btn-group>
+            <button><%= link_to 'Mostrar ', user %></button>
+            <button><%= link_to 'Editar', edit_user_path(user) %></button>
+            <button><%= link_to 'Excluir', user, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+          </btn-group>
+        </div>  
+      <% end %>
+    <button>
+      <%= link_to 'Nova Conta', new_user_path %>
+    </button>
+  </div>
+</div>  

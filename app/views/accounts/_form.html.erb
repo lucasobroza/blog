@@ -10,30 +10,19 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="head">
-    <h3>Nome</h3>
-    <%= f.text_field :name %>
-  </div>
-  <div class="head">
-    <h3>Empresa</h3>
-    <%= f.text_field :company %>
-  </div>
-  <div class="head">
-     <h3>Ativo</h3>
-    <%=f.check_box :active %>
-  </div>
-  <div class="head">
-    <h3>Usuário</h3>
-  </div>   
+  <h3>Nome</h3>
+  <%= f.text_field :name %>
+  <h3>Empresa</h3>
+  <%= f.text_field :company %>
+   <h3>Ativo</h3>
+  <%=f.check_box :active %>
+  <h3>Usuário</h3>
   <% @users.each do |user| %>
-    <div class="list"> 
+    <div class="lista"> 
       <%=check_box_tag "account[user_ids][]", user.id, @account.users.include?(user)%>
       <%=user.name %>
     </div>    
   <% end %>
-  <div class="head">
-   
-    <%= f.submit %> 
+ <%= f.submit %> 
   </div>
 <% end %>

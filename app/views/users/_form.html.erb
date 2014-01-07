@@ -1,36 +1,27 @@
-<%= form_for(@user) do |f| %>
-  <% if @user.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
-      <ul>
-      <% @user.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+ 
+    <%= form_for(@user) do |f| %>
+      <% if @user.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+          <ul>
+          <% @user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+        </div>
       <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div id="cont">
-    <h3>Nome:</h3>
-    <%= f.text_field :name %>
-  </div>
-  <div id="cont">
-    <h3>E-mail:</h3>
-    <%= f.text_field :email %>
-  </div>
-  <div id ="cont">
-    <h3>Ativo:</h3>
-    <%= f.check_box :active %>
-  </div>
- <div id="cont"> <h3>Contas:</h3></div>
-  <% @accounts.each do |account| %>
-    <div class = "list" >
-      <%= check_box_tag "account[account_ids][]", account.id, @user.accounts.include?(account) %>
-      <%= account.company %>s
-    </div>
-  <% end %>
-  <div class="head">
+      <h3>Nome:</h3>
+      <%= f.text_field :name %>
+      <h3>E-mail:</h3>
+      <%= f.text_field :email %>  
+      <h3>Ativo:</h3>
+      <%= f.check_box :active %>  
+      <h3>Contas:</h3>
+      <% @accounts.each do |account| %>
+      <div class = "lista" >
+        <%= check_box_tag "account[account_ids][]", account.id, @user.accounts.include?(account) %>
+        <%= account.company %>s
+      </div>
+    <% end %>
     <%= f.submit %>
-  </div>
-<% end %>
+  <% end %>

@@ -1,27 +1,15 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong> Active</strong>
-  <%= @user.active %>
- </p> 
-
-<p>
-  <strong>Contas</strong>
-  
-  <% @user.accounts.each do |account| %>
+<div class="bg">
+  <div class="center">
+    <h1>Nome: <%= @user.name %></h1>
+    <h1>Email: <%= @user.email %></h1>
+    <h1>Ativo: <%= human_boolean(@user.active) %></h1>
+    <h1>Contas: 
+    <% @user.accounts.each do |account| %> 
       <%= account.company%>  
-  <% end %>    
-</p>
+    <% end %></h1>    
+    <button><%= link_to 'Editar', edit_user_path(@user) %></button> 
+    <button><%= link_to 'voltar
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+    ', users_path %></button>
+  </div>
+</div>

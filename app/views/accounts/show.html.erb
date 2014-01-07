@@ -1,26 +1,13 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @account.name %>
-</p>
-
-<p>
-  <strong>Company:</strong>
-  <%= @account.company %>
-</p>
-
-<p>
-  <strong>Active:</strong>
-  <%= @account.active %>
-</p>
-
-<p>
-  <strong>Usuários:</strong>
-  <% @account.users.each do |user| %>
-    <%= user.name%>
-  <% end %>    
-</p>
-
-<%= link_to 'Edit', edit_account_path(@account) %> |
-<%= link_to 'Back', accounts_path %>
+<div class="bg">
+  <div class="center">
+    <h1>Nome: <%= @account.name %></h1>
+    <h1>Email: <%= @account.company %></h1>
+    <h1>Ativo: <%= human_boolean(@account.active) %></h1>
+    <h1>Contas: 
+    <% @account.users.each do |user| %> 
+      <%= user.name%>  
+    <% end %></h1>    
+    <button><%= link_to 'Editar', edit_account_path(@account) %></button> 
+    <button><%= link_to 'voltar', account_path %></button>
+  </div>
+</div>

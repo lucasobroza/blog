@@ -1,31 +1,20 @@
-<h1>Listing accounts</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Company</th>
-      <th>Active</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @accounts.each do |account| %>
-      <tr>
-        <td><%= account.name %></td>
-        <td><%= account.company %></td>
-        <td><%= account.active %></td>
-        <td><%= link_to 'Show', account %></td>
-        <td><%= link_to 'Edit', edit_account_path(account) %></td>
-        <td><%= link_to 'Destroy', account, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Account', new_account_path %>
+<div class="bg">
+  <div class="header">
+    <h1>Contas</h1>
+  </div>  
+  <div class="center">
+      <% @accounts.each do |account| %>
+        <div class="account-cont">
+          <h3>Nome - <%= account.name %></h3>
+          <h3>Empresa - <%= account.company %></h3>
+          <h3>Ativo - <%=human_boolean(account.active) %></h3>
+          <btn-group>
+            <button><%= link_to 'Mostrar ', account %></button>
+            <button><%= link_to 'Editar', edit_account_path(account) %></button>
+            <button><%= link_to 'Excluir', account, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+          </btn-group>
+        </div>  
+      <% end %>
+    <%= link_to 'New Account', new_account_path %>
+  </div>
+</div>  

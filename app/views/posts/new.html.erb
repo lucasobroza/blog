@@ -1,7 +1,9 @@
-<div id="new">
-  <h1>Nova Postagem</h1>
- 
-  <%= render 'form', :r=>"cotelha" %>
- 
-  <%= link_to 'Voltar', posts_path %>
+<div class="bg">  
+  <div class="header">
+    <h1>Novo Post</h1>
+  </div>
+  <div class="center">
+  	<%= render 'form', :r=>"cotelha" %>
+  	<%= link_to 'Voltar', posts_path %>
+  </div>	
 </div>

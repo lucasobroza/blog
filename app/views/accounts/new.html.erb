@@ -1,7 +1,12 @@
-<div class="wrap">  
-    <div class="head"><h1>New account</h1></div>
-
-  <%= render 'form' %>
-
-  <div class="head" align="auto"><%= link_to 'Back', accounts_path %></div>
+<div class="bg">  
+  <div class="header">
+  	<h1>Nova Conta</h1>
+  </div>	  
+  <div class="center">
+  	<%= render 'form' %>
+  	<div class="btn">
+  	  <%= link_to 'Voltar', accounts_path %>
+  	</div>
+  </div>
 </div>  
+

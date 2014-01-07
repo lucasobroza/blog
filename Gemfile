@@ -48,3 +48,7 @@ gem "protected_attributes"
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',  :github => 'anjlab/bootstrap-rails', :branch => '3.0.0'
+
+gem "will_paginate", "~> 3.0.5"
+
+gem 'will_paginate-bootstrap'

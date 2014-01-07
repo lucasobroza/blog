@@ -264,3 +264,6 @@ pt-BR:
     save_and_next: "Salvar e Próximo"
   create:
     save_and_next: "Salvar e Criar Novo"
+  will_paginate:  
+    next_label: "Próximo >"  
+    previous_label: "< Anterior"  

@@ -8,10 +8,10 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require twitter/bootstrap
  *= require_self
  *= require_tree .
- *= require twitter/bootstrap
- /*
+ */
 
  
  $cor_link: red;
@@ -43,4 +43,83 @@ div#cote {
 	   text-decoration: blink;
 	   color: blue;
 	}
+}
+.bg{
+  width:100%;
+  height:100%;
+  background-color:#CDC9C9;
+}
+.center{
+  padding-top: 15px;
+  width:60%;
+  heigth:100%;
+  min-height:600px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#EEE9E9;
+  text-align:center;
+  line-height:25px;
+}
+.title{
+  font-size:45px;
+  text-align:center;
+  margin-top:20px;
+}
+.content{
+  font-size:25px;
+  text-align:center;
+  min-height: 200px;
+}
+.operations{
+  font-size:20px;
+  text-align:right;
+  margin-bottom:20px;
+  padding-right:20px;
+}
+.nav{
+  background-color: #4F4F4F;
+  li:hover{
+    background-color:#CDC9C9;
+  }
+}
+.pagination-cont{
+  padding-left:40%;
+}
+.nav{
+  font-size: 20px;
+  a{
+    margin:  20px,30px; 
+  }
+}
+.nav-pills > li > a{
+  color:white;
+}
+  
+
+.header{
+	  margin-left:auto;
+  	  margin-right:auto;
+  	  background-color:#CDC9C9;
+  	  width:100%;
+  	  height:150px;
+  	  text-align:center;
+  	  h1{
+  	    margin-left:auto;
+  	 	margin-right:auto;
+  	 	font-size: 80px;
+  	 	margin-top: auto;
+  	 	margin-bottom:auto;
+  	 	padding-top:35px;
+  	  }
+}
+.btn-group{
+  padding-left:82.5%;
+}
+.lista{
+  margin-left:auto;
+  margin-right:auto; 
+  display:block;
+}
+.account-cont{
+  margin:50px;
 }
